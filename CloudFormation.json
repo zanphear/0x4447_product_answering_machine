@@ -355,7 +355,7 @@
 				"Environment": {
 					"Type": "LINUX_CONTAINER",
 					"ComputeType": "BUILD_GENERAL1_SMALL",
-					"Image": "aws/codebuild/nodejs:8.11.0",
+					"Image": "aws/codebuild/nodejs:10.1.0",
 					"EnvironmentVariables": [
 						{
 							"Name": "FUNCTION_NAME",
@@ -543,7 +543,7 @@
 						"Arn"
 					]
 				},
-				"Runtime": "nodejs8.10",
+				"Runtime": "nodejs10.1.0",
 				"Timeout": 60
 			}
 		},
@@ -970,7 +970,7 @@
 						"Arn"
 					]
 				},
-				"Runtime": "nodejs8.10",
+				"Runtime": "nodejs10.1.0",
 				"Timeout": 60,
 				"Environment": {
 					"Variables": {
@@ -1361,7 +1361,7 @@
 						"Arn"
 					]
 				},
-				"Runtime": "nodejs8.10",
+				"Runtime": "nodejs10.1.0",
 				"Timeout": 60
 			}
 		},
@@ -1859,7 +1859,7 @@
 						"Arn"
 					]
 				},
-				"Runtime": "nodejs8.10",
+				"Runtime": "nodejs10.1.0",
 				"Timeout": 60
 			}
 		},
